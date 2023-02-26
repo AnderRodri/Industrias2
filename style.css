@@ -5,30 +5,43 @@
   list-style: none;
 }
 #third-text {
-  margin: -50px 0 100px 0;
-}
-body {
-  background-image: url(./assets/second-background-img.jpg);
-  background-position: center;
-  background-size: 37cm;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-a {
   display: block;
-  border: 5px solid forestgreen;
   border-radius: 30px;
   text-align: center;
   justify-content: center;
-  background-color: gray;
-  color: black;
+  font-size: large;
+  border: 5px solid purple;
+  background-color:darkblue; 
+  color: white;
+}
+body {
+  background-image: url(./assets/third-background-img.png),
+    url(./assets/second-background-img.jpg);
+  background-color: cornflowerblue;
+  background-position: top, bottom;
+  background-size: 45cm, 50cm;
+  background-repeat: no-repeat, no-repeat;
+  height: 20cm, 100cm;
+}
+a {
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
   padding: 5px;
-  margin: 70px 0 0;
   font-size: large;
 }
 
 #air a {
   margin: 40px 0 0 0;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  border: 5px solid purple;
+  background-color:darkblue; 
+  color: white;
 }
 #air img {
   position: absolute;
@@ -38,6 +51,14 @@ a {
 }
 #forests a {
   margin: 370px 0 0 0;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  border: 5px solid purple;
+  background-color:darkblue; 
+  color: white;
 }
 #forests img {
   position: absolute;
@@ -48,6 +69,14 @@ a {
 }
 #water a {
   margin: 450px 0px 0 0;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  border: 5px solid orangered;
+  background-color:brown; 
+  color: black;
 }
 #water img {
   position: absolute;
@@ -57,7 +86,15 @@ a {
   height: 400px;
 }
 #global a {
-  margin: 450px 0 0 0;
+  margin: 450px 0px 0 0;
+  display: block;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  border: 5px solid orangered;
+  background-color:brown; 
+  color: black;
 }
 #global img {
   position: absolute;
