@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+#third-text {
+  margin: -50px 0 100px 0;
+}
+body {
+  background-image: url(./assets/second-background-img.jpg);
+  background-position: center;
+  background-size: 37cm;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+a {
+  display: block;
+  border: 5px solid forestgreen;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: gray;
+  color: black;
+  padding: 5px;
+  margin: 70px 0 0;
+  font-size: large;
+}
+
+#air a {
+  margin: 40px 0 0 0;
+}
+#air img {
+  position: absolute;
+  right: 360px;
+  border-radius: 30px;
+  margin: 10px 0 0 0;
+}
+#forests a {
+  margin: 370px 0 0 0;
+}
+#forests img {
+  position: absolute;
+  right: 360px;
+  border-radius: 30px;
+  margin: 10px 0 0 0;
+  height: 400px;
+}
+#water a {
+  margin: 450px 0px 0 0;
+}
+#water img {
+  position: absolute;
+  right: 360px;
+  border-radius: 30px;
+  margin: 10px 0 0 0;
+  height: 400px;
+}
+#global a {
+  margin: 450px 0 0 0;
+}
+#global img {
+  position: absolute;
+  right: 360px;
+  border-radius: 30px;
+  margin: 10px 0 0 0;
+  height: 400px;
+}
