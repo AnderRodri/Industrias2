@@ -74,8 +74,8 @@ a {
   text-align: center;
   justify-content: center;
   font-size: large;
-  border: 5px solid orangered;
-  background-color:brown; 
+  border: 5px solid blue;
+  background-color:cyan; 
   color: black;
 }
 #water img {
@@ -112,6 +112,6 @@ a {
   background-color: black;
   color: blue;
   padding: 5px;
-  margin: 265px 400px 0;
+  margin: 420px 400px 0;
   text-decoration: none;
 }
